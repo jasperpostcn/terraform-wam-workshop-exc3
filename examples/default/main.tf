@@ -18,8 +18,9 @@ module "rg" {
 }
 
 module "storage" {
-  source  = "cloudnationhq/sa/azure"
-  version = "~> 0.1"
+  source = "../.."
+  # source  = "cloudnationhq/sa/azure"
+  # version = "~> 0.1"
 
   storage = {
     name          = module.naming.storage_account.name_unique
