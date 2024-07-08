@@ -19,3 +19,6 @@ Once approved, multiple pull requests may be included in a release pull request.
 The new release will then be available in both the HashiCorp and OpenTofu registries, making it accessible for wider distribution and use.
 
 We look forward to your contributions.
+
+
+## My Contribution
